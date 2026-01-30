@@ -27,3 +27,11 @@ header img {
 main {
     clear: left;
 }
+main h3 {
+
+    margin-top: 3em;
+    font-size: 105%;
+}
+main nav list {
+    line-height: 1.5em;
+}
