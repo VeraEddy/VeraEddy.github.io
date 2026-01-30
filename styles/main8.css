@@ -32,6 +32,10 @@ main h3 {
     margin-top: 3em;
     font-size: 105%;
 }
-main nav list {
+.list {
     line-height: 1.5em;
+}
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
 }
