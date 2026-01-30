@@ -20,7 +20,7 @@ header h2 {
 header img {
     float: left;
 
-}
+}s
 .shadow {
     text-shadow: 2px 2px 2px rgb(128,0,0);
 }
@@ -32,7 +32,7 @@ main h3 {
     margin-top: 3em;
     font-size: 105%;
 }
-.list {
+#list{
     line-height: 1.5em;
 }
 footer.copyright p{
