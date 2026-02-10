@@ -11,8 +11,7 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background: url(/images/apple_logo.png) right repeat-y;
-    background-attachment: fixed;
+    
 }
 a:hover, a:focus {
     font-style: italic;
@@ -39,9 +38,12 @@ main {
     clear: left;
 }
 main h3 {
-
-    margin-top: 3em;
+    margin-top: 1.5em 2em 1.5em;
     font-size: 105%;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px maroon;
+    padding: 1em;
 }
 #list{
     line-height: 1.5em;
