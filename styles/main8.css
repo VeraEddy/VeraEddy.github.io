@@ -12,7 +12,7 @@ body {
     box-shadow: 5px 5px 0 0;
     background-color: white;
 
-    background-image: url("/images/apple_logo.png");
+    background-image: url(/images/apple_logo.png);
     background-repeat: repeat-y;
     background-position: right top;
     background-attachment: fixed;
