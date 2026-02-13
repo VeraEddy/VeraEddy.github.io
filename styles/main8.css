@@ -13,7 +13,7 @@ body {
     background-color: white;
     background-image: url("/images/shsu_logo.png");
     background-repeat: repeat-y;
-    background-position: calc(50% + 500px) top;    
+    background-position: calc(50% + 500px) top;
     background-attachment: fixed;
 }
 a:hover, a:focus {
