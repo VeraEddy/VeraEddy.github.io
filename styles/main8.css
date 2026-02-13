@@ -14,7 +14,6 @@ body {
     background-image: url("/images/apple_logo.png");
     background-repeat: repeat-y;
     background-position: right top;
-    background-attachment: fixed;
 }
 a:hover, a:focus {
     font-style: italic;
