@@ -11,8 +11,7 @@ body {
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
     background-color: white;
-
-    background-image: url(/images/apple_logo.png);
+    background-image: url("/images/apple_logo.png");
     background-repeat: repeat-y;
     background-position: right top;
     background-attachment: fixed;
@@ -46,9 +45,9 @@ main {
     clear: left;
 }
 main h3 {
-    margin: 1.5em 2em 1.5em;
+    margin: 3em 2em 3em;
     font-size: 105%;
-    border: 5px dashed blue;
+    border: 5px double blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px maroon;
     padding: 1em;
