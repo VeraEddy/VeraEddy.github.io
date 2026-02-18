@@ -1,10 +1,10 @@
 html{
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 1000px;
+    width: 90%;
     margin: 15px auto;
     padding: 15px 1.5em;
     border: 1px solid black;
@@ -13,12 +13,14 @@ body {
     background-color: white;
     background-image: url("/images/shsu_logo.png");
     background-repeat: repeat-y;
-    background-position: right;
+    background-position: calc(50% + 500px) top;
     background-attachment: fixed;
 }
 a:hover, a:focus {
     font-style: italic;
     color: blue;
+    border: 3px blue; 
+    border-style: dotted solid;
 }
 header {
     margin-bottom: 3em;
@@ -36,42 +38,40 @@ header h2 {
 header img {
     float: left;
     margin-left: 2em;
-
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128,0,0);
 }
-main {
+article {
     clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule:2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
 }
-main h3 {
-    margin: 3em 2em 3em;
-    font-size: 105%;
-    border: 5px double blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px maroon;
-    padding: 1em;
+artical h3 {
+    column-span: all;
 }
-main nav {
-    margin: 1.5em 2em 1.5em;
-    border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px maroon;
-    padding: 0.5em;
+artical img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+artical p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
 
 }
-main div.contact {
-    margin: 1.5em 2em 0 2em;
-    border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px maroon;
-    padding: 1em;
-
+aside {
+    width: 20%;
+    float:right;
+    background-color: #ffebc6;
 }
-#list{
-    line-height: 1.5em;
-}
-footer.copyright{
-    text-align: center;
-    font-size: 80%;
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
 }
