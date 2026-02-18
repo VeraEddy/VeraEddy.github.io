@@ -23,7 +23,9 @@ a:hover, a:focus {
     border-style: dotted solid;
 }
 header {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+    border-bottom: 2px solid maroon;
+    padding-bottom: 0.5em;
 }
 header h1 {
     font-size: 175%;
@@ -75,7 +77,12 @@ aside {
 p.fixed {
     width: auto;
     position: fixed;
+    top: 40%;
+    right: 0;
     background-color: lightgreen;
+    border:solid;
+    border-color: green;
+    padding: 20px;
 }
 footer {
     clear: both;
