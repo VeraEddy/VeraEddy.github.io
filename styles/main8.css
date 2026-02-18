@@ -13,7 +13,7 @@ body {
     background-color: white;
     background-image: url("/images/shsu_logo.png");
     background-repeat: repeat-y;
-    background-position: right;
+    background-position: right top;
     background-attachment: fixed;
 }
 a:hover, a:focus {
@@ -45,7 +45,7 @@ main {
     clear: left;
 }
 main h3 {
-    margin: 3em 2em 3em;
+    margin: 3em 2em 1.5em;
     font-size: 105%;
     border: 5px double blue;
     border-radius: 20px;
