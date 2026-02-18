@@ -13,7 +13,7 @@ body {
     background-color: white;
     background-image: url("/images/shsu_logo.png");
     background-repeat: repeat-y;
-    background-position: calc(50% + 500px) top;
+    background-position: right;
     background-attachment: fixed;
 }
 a:hover, a:focus {
@@ -51,15 +51,15 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
-artical h3 {
+article h3 {
     column-span: all;
 }
-artical img {
+article img {
     float: left;
     margin-right: 1em;
     margin-bottom: 1em;
 }
-artical p::first-letter {
+article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
@@ -70,6 +70,12 @@ aside {
     width: 20%;
     float:right;
     background-color: #ffebc6;
+    padding: 1em;
+}
+p.fixed {
+    width: auto;
+    position: fixed;
+    background-color: lightgreen;
 }
 footer {
     clear: both;
