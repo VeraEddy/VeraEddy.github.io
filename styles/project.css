@@ -26,6 +26,7 @@ header {
     margin-bottom: 2em;
     border-bottom: 2px solid maroon;
     padding-bottom: 0.5em;
+    padding-top: 2em;
 }
 header h1 {
     font-size: 175%;
@@ -70,14 +71,15 @@ article p::first-letter {
 }
 aside {
     width: 20%;
-    float:right;
+    float: right;
     background-color: #ffebc6;
     padding: 1em;
+    margin-top: -2em;
 }
 p.fixed {
     width: auto;
     position: fixed;
-    top: 40%;
+    top: 45%;
     right: 0;
     background-color: lightgreen;
     border:solid;
