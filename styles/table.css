@@ -43,6 +43,7 @@ table.third thead{
 }
 table.third th, table.third td {
     padding: 0.7em;  
+    vertical-align: middle;
 }
 table.third thead tr:first-child{
     border-top: 3px solid orangered ;
